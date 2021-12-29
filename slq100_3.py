@@ -85,10 +85,10 @@ def run_async_with_pool_and_measure(n_threads):
 if __name__ == "__main__":
     #run_sync_and_measure() # sync : 1129.7238166332245
 
-    #run_async_and_measure(20) # async 20 : 1405.968431711197
-    #run_async_and_measure(50) # async 50 : 1377.8299469947815
-    #run_async_and_measure(100) # async 100 : 1366.4317593574524
+    #run_async_and_measure(20)
+    #run_async_and_measure(50)
+    #run_async_and_measure(100)
 
 
-    run_async_with_pool_and_measure(20) # async & pool 20 : 1317.2488374710083
-    run_async_with_pool_and_measure(32) # async & pool 32 : 1294.6909358501434
+    #run_async_with_pool_and_measure(20) 
+    #run_async_with_pool_and_measure(32) 
